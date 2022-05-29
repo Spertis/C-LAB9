@@ -1,4 +1,4 @@
-// Copyright by Enigma
+// Copyright by Spertis
 
 #ifndef INCLUDE_CRAWLER_HPP_
 #define INCLUDE_CRAWLER_HPP_
