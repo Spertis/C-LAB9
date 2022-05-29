@@ -85,9 +85,9 @@ void Parser::find_img(const Html& html) {
   gumbo_destroy_output(&kGumboDefaultOptions, output);
 }
 
-std::deque<std::string> Parser::parse(const Html& html_, bool flag) {
+std::deque<std::string> Parser::parse(const Html& html_, bool stop) {
   auto res = parsers.enqueue([&](const Html& html){
-    if (!flag)
+    if (!stop)
       find_links(html);
     find_img(html);
     return links;

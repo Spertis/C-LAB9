@@ -23,7 +23,7 @@ class Parser{
 
   void find_img(const Html& html);
 
-  std::deque<std::string> parse(const Html& html, bool flag);
+  std::deque<std::string> parse(const Html& html, bool stop);
 
  private:
   ThreadPool parsers;

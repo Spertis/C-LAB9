@@ -47,6 +47,4 @@ int main(int argc, const char *argv[])
   {
     std::cerr << ex.what() << '\n';
   }
-  //  Crawl crawl(1, "../cmake-build-debug/out.txt");
-  //  crawl.start("http://wokandbox.ru/", 1, 1);
 }
